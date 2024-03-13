@@ -1,7 +1,7 @@
-COLORWORK GENERATOR:
+# COLORWORK GENERATOR:
 An interactive colorwork chart generator for textile artists. 
 
-USER STORIES:
+## USER STORIES:
 - as a User, I will be able to specify the dimensions of a grid.
 - as a User, I will be able to generate the grid to those dimensions.
 - as a User, I will be able to select and change an "active" color
@@ -15,11 +15,11 @@ USER STORIES:
 MVP:
 - Users will be able to create a single colorwork chart in a static grid.
 
-ADDITIONAL GOALS:
+## ADDITIONAL GOALS:
 - as a User, I will be able to create an account.
 - as a User, I will be able to save my colorwork charts.
 - as a User, I will be able to create multiple grid patterns per Chart and combine them.
 
-VERSION 2 will feature colorwork yoke calculations.
+## VERSION 2 will feature colorwork yoke calculations.
 
 
