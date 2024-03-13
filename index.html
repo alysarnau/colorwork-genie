@@ -4,8 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Colorwork Genie</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="app.js" defer></script> 
 </head>
 <body>
-    
+    <h1>Colorwork Genie Mark 1</h1>
+    <div id="container">
+        <div id="specs">
+            <p>Let's generate a Fingering Weight Sock Cuff (64 st total)!</p>
+            <form>
+                <p>Please select your desired stitch repeat:</p>
+                <input type="radio" id="rep1" name="repeat" value="4">
+                <label for="rep1">4</label><br>
+                <input type="radio" id="rep2" name="repeat" value="8" checked>
+                <label for="rep2">8</label><br>  
+                <input type="radio" id="rep3" name="repeat" value="16">
+                <label for="rep3">16</label><br>
+                <input type="radio" id="rep4" name="repeat" value="32">
+                <label for="rep4">32</label><br>
+                <br>
+                <label for="row"><p>How many rows?</p></label>
+                <input type="number" id="row" name="row" value="12" min="1" max="100"><br>
+                <br>
+                <input type="submit" value="GENERATE" id="generate">
+              </form>
+        </div>
+        <div id="colorworkPalette">Palette Goes Here</div>
+    </div>
 </body>
 </html>

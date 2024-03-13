@@ -1,0 +1,18 @@
+#container {
+    display: flex;
+}
+
+#specs {
+    max-width: 20%;
+}
+
+#colorworkPalette {
+    max-width: 80%;
+}
+
+.square {
+    display: inline-block;
+    width: 28px; 
+    height: 28px;
+    cursor: pointer;
+}
